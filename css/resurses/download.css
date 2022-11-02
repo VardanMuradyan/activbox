@@ -1,0 +1,30 @@
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.download_name {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #2d3033;
+    margin-bottom: 20px;
+}
+
+.download_text {
+    font-size: 13px;
+    font-weight: 700;
+    color: #2d3033;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.button.download_button {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 18px 80px;
+}

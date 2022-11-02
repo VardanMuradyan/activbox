@@ -1,0 +1,49 @@
+@import "resurses/all.css";
+
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+
+}
+
+.button {
+    border: none;
+    background-color: #e84545;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 16px 54px;
+}
+
+.button:hover {
+    background-color: #cc6666;
+}
+
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/

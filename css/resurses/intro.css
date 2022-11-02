@@ -1,0 +1,50 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    height: 750px;
+    background: url("../images/intro.png") center no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.cover {
+    content: "";
+    background-color: rgba(43, 46, 74, 0.95);
+    height: 750px;
+    z-index: 2;
+}
+
+.intro_inner {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    z-index: 24;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 0 120px;
+}
+
+.intro_name {
+    font-weight: 700;
+    font-family: OpenSans, sans-serif;
+    font-size: 65px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.intro_text {
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+
+.intro_btn {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
